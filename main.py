@@ -14,13 +14,8 @@ class pytanie:
         print(self.question)
         print(self.a, self.b)
         print(self.c, self.d)
-        
-testb = pytanie("test?", "a", "B", "c", "d", "b")
-testa = pytanie("test?", "A", "b", "c", "d", "a")
-testc = pytanie("test?", "a", "b", "C", "d", "c")
-testd = pytanie("test?", "a", "b", "c", "D", "d")
 
-list = [pytanie("test?", "A", "b", "c", "d", "a"), testb, testc, testd]
+list = [pytanie("test?", "A", "b", "c", "d", "a"), pytanie("test?", "a", "B", "c", "d", "b"), pytanie("test?", "a", "b", "C", "d", "c"), pytanie("test?", "a", "b", "c", "D", "d")]
 
 x = random.randint(0, len(list)-1)
 
