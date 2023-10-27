@@ -9,7 +9,6 @@ def gra():
             lista = dictoflists[key]
             x = random.randint(0, len(lista)-1)
             lista[x].print()
-            print("Pytanie numer", key)
             y = odpowiedz(lista[x])
             if y == "INCORRECT" or y == "END":
                 break
