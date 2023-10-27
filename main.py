@@ -5,7 +5,7 @@ def gra():
     a = 0
     b = 0
     for key in money:
-        while key < 1000000:
+        if key < 1000000:
             lista = dictoflists[key]
             x = random.randint(0, len(lista)-1)
             lista[x].print()
