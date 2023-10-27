@@ -18,8 +18,6 @@ def gra():
                 if money[a] in guaranteedmoney:
                     b+=1
                     print("Masz teraz gwarantowane", guaranteedmoney[b], "PLN")
-        if y == "INCORRECT" or y == "END":
-            break
     if y == "INCORRECT":
         print("Niestety, poprawna odpowiedz byla", lista[x].correct)
         print("Wygrales", guaranteedmoney[b], "PLN")
